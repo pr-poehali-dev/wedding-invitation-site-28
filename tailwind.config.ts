@@ -19,11 +19,13 @@ export default {
     },
     extend: {
       colors: {
-        "vintage-brown": "hsl(var(--vintage-brown))",
-        "vintage-beige": "hsl(var(--vintage-beige))",
-        "vintage-green": "hsl(var(--vintage-green))",
-        "vintage-warm": "hsl(var(--vintage-warm))",
-        "vintage-dark": "hsl(var(--vintage-dark))",
+        "wedding-rose": "hsl(var(--wedding-rose))",
+        "wedding-blush": "hsl(var(--wedding-blush))",
+        "wedding-cream": "hsl(var(--wedding-cream))",
+        "wedding-gold": "hsl(var(--wedding-gold))",
+        "wedding-sage": "hsl(var(--wedding-sage))",
+        "wedding-deep-rose": "hsl(var(--wedding-deep-rose))",
+        "wedding-soft-pink": "hsl(var(--wedding-soft-pink))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

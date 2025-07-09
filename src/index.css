@@ -34,11 +34,13 @@
 
     --radius: 0.5rem;
 
-    --vintage-brown: 30 40% 25%;
-    --vintage-beige: 43 20% 96%;
-    --vintage-green: 78 25% 65%;
-    --vintage-warm: 35 30% 85%;
-    --vintage-dark: 25 35% 20%;
+    --wedding-rose: 343 89% 60%;
+    --wedding-blush: 10 100% 94%;
+    --wedding-cream: 45 100% 97%;
+    --wedding-gold: 43 74% 66%;
+    --wedding-sage: 150 20% 85%;
+    --wedding-deep-rose: 343 80% 35%;
+    --wedding-soft-pink: 6 100% 97%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -105,15 +107,15 @@
     @apply bg-background text-foreground;
   }
 
-  .vintage-script {
+  .wedding-script {
+    font-family: "Great Vibes", cursive;
+  }
+
+  .wedding-elegant {
     font-family: "Playfair Display", serif;
   }
 
-  .vintage-elegant {
-    font-family: "Cormorant Garamond", serif;
-  }
-
-  .vintage-modern {
-    font-family: "Montserrat", sans-serif;
+  .wedding-modern {
+    font-family: "Lato", sans-serif;
   }
 }
