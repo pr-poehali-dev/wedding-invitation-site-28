@@ -4,35 +4,41 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 43 20% 96%;
+    --foreground: 30 40% 25%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 43 20% 96%;
+    --card-foreground: 30 40% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 43 20% 96%;
+    --popover-foreground: 30 40% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 30 40% 25%;
+    --primary-foreground: 43 20% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 78 25% 65%;
+    --secondary-foreground: 30 40% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 43 15% 90%;
+    --muted-foreground: 30 20% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 78 25% 65%;
+    --accent-foreground: 30 40% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 43 20% 96%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 43 15% 85%;
+    --input: 43 15% 85%;
+    --ring: 30 40% 25%;
 
     --radius: 0.5rem;
+
+    --vintage-brown: 30 40% 25%;
+    --vintage-beige: 43 20% 96%;
+    --vintage-green: 78 25% 65%;
+    --vintage-warm: 35 30% 85%;
+    --vintage-dark: 25 35% 20%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -97,5 +103,17 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  .vintage-script {
+    font-family: "Playfair Display", serif;
+  }
+
+  .vintage-elegant {
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .vintage-modern {
+    font-family: "Montserrat", sans-serif;
   }
 }
